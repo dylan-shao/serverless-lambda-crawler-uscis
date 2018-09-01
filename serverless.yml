@@ -1,0 +1,11 @@
+service: serverless-lambda-crawler-uscis
+
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-2
+
+functions:
+  getCaseStatus:
+    handler: handler.getCaseStatus
