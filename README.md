@@ -1,6 +1,16 @@
 ## What is this?
 
-Crawl USCIS case status and send SMS notification using [AWS lambda](https://aws.amazon.com/lambda/), [CloudWatch](https://aws.amazon.com/cloudwatch/) & [Serverless](https://serverless.com/) & [Nexmo](https://www.nexmo.com/)
+Crawl USCIS case status and send SMS notification using:
+
+1. [AWS lambda](https://aws.amazon.com/lambda/): Function-as-a-Servcie, crawl the USCIS case status, and trigger the notification
+
+2. [CloudWatch](https://aws.amazon.com/cloudwatch/): Infrastructure management, used to trigger the lambda regularly
+
+3. [Serverless](https://serverless.com/): deploy lambda function
+
+4. [cheerio](https://github.com/cheeriojs/cheerio): parse html and get the target content
+
+5. [Nexmo](https://www.nexmo.com/): sms notification service
 
 ### How to use it
 
