@@ -4,7 +4,7 @@ Crawl USCIS case status and send SMS notification using [AWS lambda](https://aws
 
 ### How to use it
 
-1. You need to set up your [AWS](https://aws.amazon.com/) account, and [Serverless](https://serverless.com/) frameowrk, and create a secrets file and save the following variables:
+1. You need to set up your [AWS](https://aws.amazon.com/) account, and [Serverless](https://serverless.com/) frameowrk, and create a secrets.js file and save the following variables:
 
    * caseNumber
    * NEXMO_API_KEY (from Nexmo)
